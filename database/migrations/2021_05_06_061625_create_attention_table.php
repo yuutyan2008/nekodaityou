@@ -16,12 +16,11 @@ class CreateAttentionTable extends Migration
         Schema::create('attention', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('hininkyosei')->comment('避妊去勢済');
-            $table->string('kaze')->comment('風邪をひいている');
+            $table->string('byouki')->comment('病気になっている');
             $table->string('kega')->comment('怪我をしている');
-            $table->string('gennkiganai')->comment('元気がない');
             $table->string('ninsin')->comment('妊娠中お腹が大きい');
             $table->string('koneko')->comment('子猫');
-            $table->string('jyoutotaisyou')->comment('譲渡対象');
+            $table->string('jyouto')->comment('譲渡対象');
             $table->timestamps();
         });
     }

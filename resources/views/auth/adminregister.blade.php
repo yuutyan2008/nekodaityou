@@ -26,26 +26,6 @@
                             </div>
                         </div>
                         
-                        <div class="form-group row">
-                            <label for="belonging" class="col-md-4 col-form-label text-md-right">Belonging</label>
-                        
-                            <div class="col-md-6" style="padding-top: 8px">
-                                <input id="belonging-s" type="radio" name="belonging" value="student">
-                                <label for="belonging-s">学生</label>
-                                <input id="belonging-as" type="radio" name="belonging" value="academic staff">
-                                <label for="belonging-as">大学職員</label>
-                                 <input id="belonging-a" type="radio" name="belonging" value="academician">
-                                <label for="belonging-a">教員</label>
-                                <input id="belonging-ordinary" type="radio" name="belonging" value="ordinary person">
-                                <label for="belonging-ordinary">一般</label>
-                       
-                                @if ($errors->has('belonging'))
-                                    <span class="invalid-feedback">
-                                        <strong>{{ $errors->first('belonging') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
   
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>

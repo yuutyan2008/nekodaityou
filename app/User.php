@@ -38,13 +38,26 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
     
-    //validation設定
-    protected $guarded = array('id');
+    //belongingとuserは1対多の関係
+    public function belonging(){
+
+        return $this->belongsTo('App\Belonging');
+    }
+    
+    //userとactivityは１対多の関係
+    public function activuties(){
+
+        return $this->hasMany('App\Activity');
+    }    
+    
+    
+    //validation設定。guardをかけてModelで値を用意しなくても保存できるよう保護する
+    protected $guarded = array('id', 'belonging_id');
     
      public static $rules = array(
          'name' => 'required',
          'email' => 'required',
-         'password' => 'required',
+         'password' => 'required|string|min:6|confirmed',
     );
     
 

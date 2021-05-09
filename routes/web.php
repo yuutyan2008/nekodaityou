@@ -18,3 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+//アクセス時にshowRegistrationForm関数が呼ばれる
+Route::get('auth/register', 'Auth/RegisterController@showRegistrationForm');
+//データを送信した時にregister関数が呼ばれる
+Route::post('auth/register', 'Auth/RegisterController@register');
