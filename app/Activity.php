@@ -20,7 +20,10 @@ class Activity extends Model
     }
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 }

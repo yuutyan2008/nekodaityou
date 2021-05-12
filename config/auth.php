@@ -47,6 +47,7 @@ return [
             'hash' => false,
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         /** マルチ認証 **/
          'user' => [
@@ -57,6 +58,8 @@ return [
             'driver' => 'session',
             'provider' => 'admins',
         ],      
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
     ],
@@ -85,12 +88,15 @@ return [
         ],
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** 管理者 **/
         'admins' => [
             'driver' => 'eloquent',
             'model' => App\Models\Admin::class,
         ],
 
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
         // 'users' => [
@@ -121,6 +127,7 @@ return [
             'expire' => 60,
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         /** 管理者用 **/
         'admins' => [
@@ -131,6 +138,9 @@ return [
 
     ],
     
+=======
+    ],
+>>>>>>> origin/master
 =======
     ],
 >>>>>>> origin/master

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <Bootstrap CSSフレームワークを使用したベースレイアウト>
     
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">

@@ -14,7 +14,11 @@ class CreateAttentionTable extends Migration
     public function up()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Schema::create('attentions', function (Blueprint $table) {
+=======
+        Schema::create('attention', function (Blueprint $table) {
+>>>>>>> origin/master
 =======
         Schema::create('attention', function (Blueprint $table) {
 >>>>>>> origin/master
@@ -37,7 +41,11 @@ class CreateAttentionTable extends Migration
     public function down()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Schema::dropIfExists('attentions');
+=======
+        Schema::dropIfExists('attention');
+>>>>>>> origin/master
 =======
         Schema::dropIfExists('attention');
 >>>>>>> origin/master

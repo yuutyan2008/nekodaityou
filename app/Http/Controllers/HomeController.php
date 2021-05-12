@@ -17,6 +17,7 @@ class HomeController extends Controller
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     /**
      * 全ユーザーリストの表示
@@ -93,6 +94,8 @@ class HomeController extends Controller
     {
         //
 =======
+=======
+>>>>>>> origin/master
     /**
      * Show the application dashboard.
      *
@@ -101,6 +104,9 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
     }
 }

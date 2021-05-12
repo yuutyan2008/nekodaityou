@@ -5,7 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Auth;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\User;
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 
@@ -20,6 +23,7 @@ use Storage;
 
 class UserController extends Controller
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * 全ユーザーリストの表示
@@ -168,6 +172,10 @@ class ProfileController extends Controller
     }  
               
 }
+=======
+    //
+}
+>>>>>>> origin/master
 =======
     //
 }

@@ -27,7 +27,11 @@ class Cats extends Model
     
     //areaとcatは1対多の関係
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function area(){
+=======
+    public function aarea(){
+>>>>>>> origin/master
 =======
     public function aarea(){
 >>>>>>> origin/master
@@ -40,6 +44,7 @@ class Cats extends Model
 
         return $this->belongsTo('App\Attention');
 <<<<<<< HEAD
+<<<<<<< HEAD
     }    
     
     /**
@@ -49,6 +54,9 @@ class Cats extends Model
     {
         return $this->belongsToMany('App\Attention');
     }    
+=======
+    }     
+>>>>>>> origin/master
 =======
     }     
 >>>>>>> origin/master

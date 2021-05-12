@@ -18,6 +18,7 @@ class CreateCatsUsersTable extends Migration
             $table->timestamps();
             
 <<<<<<< HEAD
+<<<<<<< HEAD
             $table->unsignedBigInteger('user_id')->unsigned()->comment('ユーザーID');//外部キー
             $table->unsignedBigInteger('cat_id')->unsigned()->comment('猫ID');//外部キー
             
@@ -27,10 +28,15 @@ class CreateCatsUsersTable extends Migration
     });
 }
 =======
+=======
+>>>>>>> origin/master
             $table->integer('user_id')->comment('ユーザーID');
             $table->integer('cat_id')->comment('猫ID');
         });
     }
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
     /**

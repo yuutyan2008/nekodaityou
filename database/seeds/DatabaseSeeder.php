@@ -2,8 +2,11 @@
 
 use Illuminate\Database\Seeder;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 
@@ -11,7 +14,11 @@ class DatabaseSeeder extends Seeder
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * データベース初期値設定の実行
+=======
+     * Seed the application's database.
+>>>>>>> origin/master
 =======
      * Seed the application's database.
 >>>>>>> origin/master
@@ -20,6 +27,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         DB::table('attentions')->insert([
             'name' => Str::random(10),
@@ -46,6 +54,11 @@ class DatabaseSeeder extends Seeder
             });
     }
 }
+=======
+        // $this->call(UsersTableSeeder::class);
+    }
+}
+>>>>>>> origin/master
 =======
         // $this->call(UsersTableSeeder::class);
     }

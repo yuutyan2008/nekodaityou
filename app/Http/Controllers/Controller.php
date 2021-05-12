@@ -10,7 +10,12 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class Controller extends BaseController
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+}
+>>>>>>> origin/master
 =======
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }

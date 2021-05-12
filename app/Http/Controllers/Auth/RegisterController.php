@@ -62,7 +62,11 @@ class RegisterController extends Controller
      * @return \App\User
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function create(array $data)
+=======
+    protected function create(array $data)
+>>>>>>> origin/master
 =======
     protected function create(array $data)
 >>>>>>> origin/master

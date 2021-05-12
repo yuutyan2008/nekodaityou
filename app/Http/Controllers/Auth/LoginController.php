@@ -5,7 +5,10 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Http\Request;
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 
@@ -26,7 +29,11 @@ class LoginController extends Controller
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * ログインしていないUserの転送先
+=======
+     * Where to redirect users after login.
+>>>>>>> origin/master
 =======
      * Where to redirect users after login.
 >>>>>>> origin/master
@@ -42,6 +49,7 @@ class LoginController extends Controller
      */
     public function __construct()
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $this->middleware('guest:user')->except('logout');
     }
@@ -64,6 +72,11 @@ class LoginController extends Controller
     }
 }
 
+=======
+        $this->middleware('guest')->except('logout');
+    }
+}
+>>>>>>> origin/master
 =======
         $this->middleware('guest')->except('logout');
     }
